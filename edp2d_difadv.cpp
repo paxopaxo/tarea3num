@@ -100,7 +100,7 @@ void export_csv(const string& filename, const VectorXd& U, int N, double h, bool
 }
 
 int main() {
-    int N0 = 32; // puntos interiores + 1
+    int N0 = 33; // puntos interiores + 1
     int refinamientos = 8;
 
     ofstream summary("summary.csv");
